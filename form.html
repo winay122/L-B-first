@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students form</title>
+    <style>
+        fieldset{background-color: rgb(181, 182, 174);}
+
+        legend{
+            background-color: rgb(61, 50, 50);
+            color: azure;
+            }
+  
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Students details</legend>
+
+            <label for="name">1. Name : </label>
+            <input type="text" id="name" required> <br><br>
+
+            <label for="id">2. Regesteration No.:</label>
+            <input type="number" name="" id="id"><br><br>
+
+            <label for="branch">3. Branch</label>
+            <select name="" id="branch">
+                <option value="Select">Select</option>
+                <option value="cse">CSE</option>
+                <option value="ai">AI</option>
+                <option value="it">IT</option>
+                <option value="ce">CE</option>
+            </select><br><br>
+
+            <label for="dob">4. D.O.B : </label>
+            <input type="date" id="dob"><br><br>
+
+            <label for="email">5. E-mail address: </label>
+            <input type="email" id="email" required> <br><br>
+
+            <label for="pass">6. password </label>
+            <input type="password" id="pass"><br><br>
+
+            <label for="number">7. Mobile No. </label>
+            <input type="number" name="Number" id="number" required> <br><br>
+
+            <label for="img">8. Upload image:</label>
+            <input type="file" name="" id="img"><br>
+
+            <p>9. Select Gender</p>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male">
+
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female"><br><br>
+
+            <label for="add">10. Address: </label><br>
+            <textarea name="" id="add" cols="150" rows="5"></textarea><br><br>
+
+            <label for="project">11. Project url Link</label>
+            <input type="url" name="" id="project" required><br><br>
+
+            <label for="color">12. Fav. colour:</label>
+            <input type="color" id="color"><br><br>
+
+            <label for="DT">13. Submission date and Time </label>
+            <input type="datetime-local" name="" id="DT"><br><br>
+
+            <input type="checkbox" id="citizen"> Are you citizen of India
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+</body>
+</html>
