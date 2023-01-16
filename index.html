@@ -2,6 +2,7 @@
 
 <head>
     <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         table,tr,td,th{
           border: 1px solid black;
@@ -20,6 +21,15 @@
             background-color: rgb(61, 50, 50);
             color: azure;
         }
+        a:link{
+            color:red;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color:gray;
+        }
 
         </style>
         
@@ -27,13 +37,20 @@
 </head>
 
 <body>
-    <h1>Hellow Vinay</h1>
+    <h1 style="color: brown;">Hellow Vinay</h1>
     <h2>Hellow Vinay</h2>
     <h3>Hellow Vinay</h3>
+    <hr>
     <h4>Hellow Vinay</h4>
+    
 
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <a href="https://google.com" target="_blank">Google</a>
         Odit, neque.</p>
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis impedit eos nam rem. Rerum totam maxime fuga illo. Odit, repellendus?</p>
+        </aside>
+
+    <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur suscipit corrupti optio architecto temporibus perferendis rem culpa quia reprehenderit harum repellendus laboriosam sunt sed accusamus rerum quam non asperiores consequuntur error repudiandae quas molestiae nobis, unde atque. Odit, necessitatibus. Nostrum.</p>    
 
     <a href="https://learnandbuild.in/" target="_blank"><img
             src="https://learnandbuild.in/wp-content/uploads/2022/05/LOGO_BLUE-01.png" width="200"
@@ -152,7 +169,8 @@
             <label for="DT">13. Submission date and Time </label>
             <input type="datetime-local" name="" id="DT"><br><br>
 
-            <input type="checkbox" id="citizen"> Are you citizen of India
+            <input type="checkbox" id="citizen">
+            <label for="citizen">Are you citizen of India</label>
             <br><br>
 
             <input type="submit" value="Submit">

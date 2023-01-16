@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding: 0;
+    color: rgba(159, 103, 51, 0.925);
+    background-color: rgb(215,248,189);
+    font: small Arial,Sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(190, 230, 69);
+    margin-bottom: 1.3em;
+}
+.curl{
+    float: right;
+    padding-right: 1.3em;
+    width: 1.2em;
+}
+.bar{
+    margin: 0;
+    color: white;
+    background-color: grey;
+    padding: 0.5em 0 0.5em 1em;
+}
+.bar a{
+    color: rgb(138, 221, 54);
+}
+
+.bar li{
+    display: inline;
+    margin-right:1em;
+    padding-right: 0.5em;
+    border-right: 1px solid white;
+}
+.bar li:hover{
+    font-weight: bolder;
+    background-color: #2f3027;
+}
+.date{
+    margin-top: -1.7em;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: right;
+    padding-right: 1em;
+}
+.content{
+    width: 80%;
+    float: left;
+    margin: 0 1em 0 0;
+    padding: 0 0 1em;
+}
+.content h1 b{
+    color: green;
+}
+.content h1{
+    background-color: white;
+    padding: 0.2em;
+    margin: 0;
+}
+.content h2{
+    border-bottom: 1px solid #889939;
+    padding-bottom: 0.3em
+}
+.content img.side{
+    float: left;
+    margin:1em;
+    width: auto;
+}
+.right-content{
+    float: left;
+    width: 18%;
+}
+.right-content form .text{
+    width: 13em;
+}
+.search{
+    margin: 0;
+    text-align: center;
+    padding: 4em;
+}
+.right-content form, .right-content h3{
+    background-color: rgb(72, 69, 129, 0.953);
+    padding: 0.7em;
+}
+
+.tea{
+    background-color: #2f3027e6;
+    color: white;
+    padding-bottom: 1em;
+}
+.tea h4{
+    border-bottom: 1px solid white;
+    margin: 1em;
+    padding-bottom: 0.5em;
+}
+
+.tea h4, .tea p{
+    padding-left: 1em;
+}
+
+.tea img.cup{
+    display: block;
+    margin: 0 auto;
+}
+
+.arch{
+    background-color: #2f3027;
+    color: white;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+}
+
+.arch table{
+    margin: 0 auto;
+    font-size: smaller;
+    text-align: center;
+}
+
+.arch td{
+    border: 1px solid white;
+    background-color: #a5a69e;
+    color: black;
+}
+
+.arch table a{
+    font-weight: bold;
+    color: white;
+}
+.arch table a:hover{
+    color: rgba(32, 32, 216, 0.788);
+    font-size: 0.9em;
+}
+
+.footer{
+    clear: both;
+    padding: 0.5em 1em;
+    background-color: rgb(173, 230, 81, 0.927);
+    margin: 0;
+}
+
+
+
+
