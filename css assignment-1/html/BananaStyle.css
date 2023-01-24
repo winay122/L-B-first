@@ -44,9 +44,12 @@ a{
     text-align: right;
     padding-right: 1em;
 }
+.container{
+    display: flex;
+}
 .content{
     width: 80%;
-    float: left;
+    /* float: left; */
     margin: 0 1em 0 0;
     padding: 0 0 1em;
 }
@@ -67,10 +70,10 @@ a{
     margin:1em;
     width: auto;
 }
-.right-content{
+/* .right-content{
     float: left;
     width: 18%;
-}
+} */
 .right-content form .text{
     width: 13em;
 }

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    line-height: 1.7;
+    background-color: #818181;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.item{
+    width: 70%;
+    margin: 60px auto;
+    border: 1px solid black;
+    position: relative;
+}
+.item-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(189, 180, 170);
+}
+.item-title span{
+    font-size: 27px;
+    font-family: 'Lobster', cursive;
+
+}
+.item-info{
+    margin-top: 10px;
+    flex: 1;
+}
+.item-price{
+    display: flex;
+    justify-content: space-between;
+}
+.production-cost{
+    font-size: small;
+    display: flex;
+}
+.off{
+    margin-left: 5px;
+    color: rgb(52, 179, 64);
+    font-weight: bold;
+}
+.original-price{
+    text-decoration: line-through;
+}
+.delivery{
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(15, 146, 44);
+}
+.offer{
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 15px 0;
+}
+.item-details{
+    margin: 10px;
+}
+.more-details:link , .more-details:visited{
+    color: rgb(31, 35, 230);
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.more-details:hover{
+    color: rgb(139, 139, 234);
+}
+
+.rating{
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: rgb(13, 144, 63);
+}
+.color
+{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.color-black{
+    background-color: black;
+}
+.color-blue{
+    background-color: blue;
+}
+.color-red{
+    background-color: red;
+}
+.color-gray{
+    background-color: rgb(116, 93, 93);
+}
+
+.item-desc{
+    margin-top: 10px;
+    flex:1;
+    margin-left: 100px;
+}
+.desc-list li{
+    padding: 5px;
+}
+
+.buy-option{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.buy-option button{
+    width: 17em;
+    height: 4em;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+.buy-option img{
+    width: 20px;
+}
+.hov:hover{
+    color: #1bb4fb;
+}
+.buy-option span{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cart{
+    background-color: #ff9f00;
+}
+.cart:hover{
+    zoom: 105%;
+}
+.buy:hover{
+    zoom: 105%;
+}
+.buy{
+    background-color: #fb641b;
+}
